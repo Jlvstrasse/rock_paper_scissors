@@ -1,3 +1,30 @@
+function countdown() {  
+    let timeLeft = 3
+    const timeInterval = setInterval(function () {
+        if (timeLeft === 3) {
+          timerEl.textContent = `Rock!`;
+          timeLeft--;
+        } else if (timeLeft === 2) {
+          timerEl.textContent = `Paper!`;
+          timeLeft--;
+        } else if (timeLeft === 3) {
+            timerEl.textContent = `Scissors!`;
+            timeLeft--;  
+        } else {
+          timerEl.textContent = `Shoot!`;
+          clearInterval(timeInterval);
+          displayMessage();
+        }
+      }, 1000);
+    }
+
+
+
+
+
+
+
+
 const getUserChoice = (userInput) => {
     userInput = userInput.toLowerCase();
   
