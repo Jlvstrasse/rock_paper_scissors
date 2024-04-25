@@ -7,7 +7,7 @@ function countdown() {
         } else if (timeLeft === 2) {
           timerEl.textContent = `Paper!`;
           timeLeft--;
-        } else if (timeLeft === 3) {
+        } else if (timeLeft === 1) {
             timerEl.textContent = `Scissors!`;
             timeLeft--;  
         } else {
