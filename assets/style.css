@@ -107,18 +107,25 @@ a:hover {
     #countdown {
         flex-direction: column;
         height: auto;
-        padding-top: 10px;
+        height: 70vh;
     }
 
     img {
-        max-height: 100px; 
-        max-width: 100px;
+        max-height: 200px; 
+        max-width: 200px;
         display: flex;
         align-items: center;
         
     }
 
+    .modal {
+        
+        align-content: center;
+    }
+
     .modal-content {
         width: 90%; /* Increase modal width for smaller screens */
+        
+        
     }
 }
