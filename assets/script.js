@@ -121,15 +121,15 @@ function countdown() {
     } 
     if (userChoice === 'Paper')
       if (computerChoice === 'Rock') {
-      return 'You Lost'
-    } else {
       return 'You Won!'
+    } else {
+      return 'You Lost'
     } 
     if (userChoice === 'Scissors')
       if (computerChoice === 'Paper') {
-      return 'You Lost'
-    } else {
       return 'You Won!'
+    } else {
+      return 'You Lost!'
     }
     
   }
