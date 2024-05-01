@@ -85,6 +85,7 @@ function countdown() {
             timeLeft--;
         } else if (timeLeft === 0) {
             timerEl.textContent = ``
+            clearInterval(timeInterval)
           const computerChoice = getComputerChoice();
           const result = determineWinner(userChoice, computerChoice);
           openModal(userChoice, computerChoice, result);
