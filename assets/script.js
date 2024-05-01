@@ -115,7 +115,7 @@ function countdown() {
   
     if (userChoice === 'Rock')
       if (computerChoice === 'Paper') {
-      return 'You Lost'
+      return 'You Lost!'
     } else {
       return 'You Won!'
     } 
@@ -123,7 +123,7 @@ function countdown() {
       if (computerChoice === 'Rock') {
       return 'You Won!'
     } else {
-      return 'You Lost'
+      return 'You Lost!'
     } 
     if (userChoice === 'Scissors')
       if (computerChoice === 'Paper') {
