@@ -2,7 +2,7 @@
 
 ## Description
 This application allows you to play Rock, Paper, Scissors against the computer
-![Rock Paper Scissors](./assets/pictures/rockpaperscissors.pdf)
+![Rock Paper Scissors](./assets/pictures/Screenshot%202024-05-01%20at%205.34.23 PM%20(3).jpg)
 
 ## Technologies
 HTML, CSS,  Javascript
